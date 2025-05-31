@@ -58,10 +58,7 @@ async function main() {
 main();
 
 /*
-Prerequisites to run this code:
-1. Node.js installed on your system.
-
-How to run:
+Prerequisites
 1. Save the code into a file (e.g., 'mergeProfileInput.js').
 2. Open your terminal or command prompt.
 3. Navigate to the directory where you saved the file.
