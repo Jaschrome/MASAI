@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Semantic HTML Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    header, footer {
+      background-color: #333;
+      color: white;
+      padding: 1em;
+    }
+    nav a {
+      margin: 0 1em;
+      color: white;
+      text-decoration: none;
+    }
+    section {
+      padding: 1em;
+    }
+    article {
+      margin-bottom: 2em;
+      padding: 1em;
+      background-color: #f0f0f0;
+      border-left: 4px solid #007acc;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>This is the Header Section</h1>
+    <p>The header typically contains the title of the page and main navigation.</p>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>This is a Section Element</h2>
+    <p>The section groups related content together, such as blog posts or news items.</p>
+
+    <article>
+      <h3>This is the First Article</h3>
+      <p>This article represents a self-contained piece of content, like a blog post or news entry. Articles should make sense on their own and often have their own heading.</p>
+    </article>
+
+    <article>
+      <h3>This is the Second Article</h3>
+      <p>Here is another article, showing how multiple articles can live within a section. Each article can focus on a different topic while still being related.</p>
+    </article>
+  </section>
+
+  <footer>
+    <p>This is the Footer Section — typically used for copyright notices, contact info, or links to policies.</p>
+    <p>&copy; 2025 Semantic HTML Example. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
