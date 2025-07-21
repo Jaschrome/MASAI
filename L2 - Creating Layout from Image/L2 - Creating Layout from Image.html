@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Welcome to My Portfolio</h2>
+      <p>This portfolio showcases my projects and provides information about my background and contact details.</p>
+    </section>
+
+    <section>
+      <h2>About</h2>
+      <p>Hello, My name is Jairaj Singh Jabbal, and I am excited to share some of my projects here<p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Project Name</th>
+            <th>Description</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="https://github.com/Jaschrome/Quantum-Powered-File-Encryption-Simulator-.git" target="_blank">QKD based file encryption</a></td>
+            <td>A tool for encrypting and decrypting files using quantum key distribution iwth qiskit and qubit simulation.</td>
+            <td>2025</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/Jaschrome/Token-Incentives-for-Content-Sharing.git" target="_blank">Token Incentives for Content Sharing</a></td>
+            <td>leverages blockchain technology to reward users with tokens for sharing content. Using a custom ERC20 token, users are incentivized to contribute valuable content, verified via content hashes.</td>
+            <td>2024</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <form>
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4"></textarea><br /><br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+</body>
+</html>
