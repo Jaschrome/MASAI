@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Display Properties Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CSS Display Properties Demo</h1>
+    <p>
+        Below are four elements, each demonstrating a different CSS <code>display</code> property.
+    </p>
+    <div id="block-element">Block Element (display: block)</div>
+    <span id="inline-element">Inline Element (display: inline)</span>
+    <span id="inline-block-element">Inline-Block Element (display: inline-block)</span>
+    <span id="hidden-element">Hidden Element (display: none)</span>
+    <br><br>
+    <button onclick="toggleHidden()">Toggle Hidden Element</button>
+    <script>
+        function toggleHidden() {
+            const el = document.getElementById('hidden-element');
+            if (el.style.display === 'none') {
+                el.style.display = 'inline-block';
+            } else {
+                el.style.display = 'none';
+            }
+        }
+        // Hide hidden-element by default
+        document.getElementById('hidden-element').style.display = 'none';
+    </script>
+</body>
+</html>
