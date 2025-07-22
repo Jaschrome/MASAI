@@ -1,0 +1,37 @@
+#block-element {
+    display: block;
+    width: 100%;
+    border: 2px solid #0074D9;
+    background: #e0f7fa;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#inline-element {
+    display: inline;
+    background: #ffe082;
+    color: #333;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid #ffb300;
+}
+
+#inline-block-element {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    background: #c8e6c9;
+    border: 2px solid #388e3c;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 6px;
+}
+
+#hidden-element {
+    display: none;
+    background: #f8bbd0;
+    border: 2px solid #c2185b;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
