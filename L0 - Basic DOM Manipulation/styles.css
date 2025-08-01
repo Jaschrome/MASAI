@@ -1,0 +1,9 @@
+li.bold-blue {
+  font-weight: bold;
+  color: blue;
+}
+
+li.italic-red {
+  font-style: italic;
+  color: red;
+}
