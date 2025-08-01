@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Debugging Task</title>
+</head>
+<body>
+
+  <!-- The paragraph we want to update -->
+  <p id="message">Original Message</p>
+
+  <!-- Button to change the paragraph text -->
+  <button id="textButton">Change Text</button>
+  <br><br>
+
+  <!-- A box whose background will change -->
+  <div id="box" style="width: 100px; height: 100px; background-color: lightgray;"></div>
+
+  <!-- Button to change the box background -->
+  <button id="colorButton">Change Background</button>
+
+  <script>
+    //The id was wrongly typed as 'massage', changed to 'message'
+    const para = document.querySelector('#message');
+
+    //getElementByName doesn't exist, changed to getElementById
+    const textButton = document.getElementById('textButton');
+
+    //addClickEventListener is not a valid method, changed to addEventListener
+    //'contentText' is not a valid property, changed to 'textContent'
+    textButton.addEventListener('click', () => {
+      para.textContent = 'New Message';
+    });
+
+    const box = document.getElementById('box');
+    const colorButton = document.getElementById('colorButton');
+
+    //'styl' was a typo, changed to 'style'
+    colorButton.addEventListener('click', () => {
+      box.style.backgroundColor = 'blue';
+    });
+  </script>
+</body>
+</html>
