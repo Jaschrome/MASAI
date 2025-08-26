@@ -1,11 +1,11 @@
-function outerFunction() {
-  const outerVar = "I am from outer scope";
-  
-  function innerFunction() {
-    console.log(outerVar);
+function calculateSquare() {
+  const number = 7;
+
+  function square() {
+    console.log(number * number);
   }
 
-  innerFunction();
+  square();
 }
 
-outerFunction();
+calculateSquare();
